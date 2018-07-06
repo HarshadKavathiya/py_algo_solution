@@ -1,0 +1,10 @@
+[{"country": "IN", "id": 1259229, "coord": {"lat": 18.519569, "lon": 73.855347}, "name": "Pune"},
+{"country": "IN", "id": 1273294, "coord": {"lat": 28.666668, "lon": 77.216667}, "name": "Delhi"},
+{"country": "CA", "id": 5937522, "coord": {"lat": 42.850101, "lon": -80.49968}, "name": "Delhi"},
+{"country": "IN", "id": 1261481, "coord": {"lat": 28.61282, "lon": 77.23114}, "name": "New Delhi"},
+{"country": "IN", "id": 1275339, "coord": {"lat": 19.01441, "lon": 72.847939}, "name": "Mumbai"},
+{"country": "IN", "id": 1277333, "coord": {"lat": 12.97623, "lon": 77.603287}, "name": "Bangalore"},
+{"country": "US", "id": 4321929, "coord": {"lat": 32.457642, "lon": -91.493172}, "name": "Delhi"},
+{"country": "US", "id": 5114824, "coord": {"lat": 42.278141, "lon": -74.915993}, "name": "Delhi"},
+{"country": "US", "id": 5342522, "coord": {"lat": 37.432159, "lon": -120.778542}, "name": "Delhi"},
+{"country": "IN", "id": 1273294, "coord": {"lat": 29.432159, "lon": 70.778542}, "name": ""}]
