@@ -1,0 +1,78 @@
+Team Work
+Team Work
+
+There are a total of 2M teams in a college. There will be a total of M games played.
+
+Teams that are paired against each other in the contest will have the same number of
+players. Each player in a team plays with exactly one opposing player.
+
+The total score for each team is calculated in the following way:
+
+Suppose there are k players in each team. Let the two teams be team A and B.
+The scores of player 0, player 1, player 2, …, player k in team A are denoted
+as a0, a1, … , ak.
+
+The scores of player 0, player 1, player 2, …, player k in team B are denoted by
+b0, b1, …, bk.
+
+As mentioned player 0 in team A plays player 0 in team B, player 1 in team A plays player 1 in team B
+and so on.
+
+The score for the teams are calculated in this way:
+
+If ai < bi then team B is alloted a point
+If ai > bi then team A is alloted a point
+If ai = bi then neither team is alloted a point
+So, given the scores earned by each individual players of the teams, print out the points
+earned by each team.
+
+Input Format
+
+The first line contains an integer 2M (where M is the total number of games played; 2M
+is total number of teams in the contest.)
+
+Then for each game played, there will be 3 lines of input.
+The first line contains a single integer N which is the number of players
+in the two teams.
+
+The second line contains N space separated integers which are the scores
+achieved by the players of the first team.
+
+The third line contains N space separated integers which are the scores of
+achieved by the players of the second team.
+
+Output Format
+
+For each game played, print two space-separated integers denoting the
+scores earned by the first and second team respectively.
+
+Constraints
+
+1 < M < 1000
+
+1 < N < 1000
+
+1 < Ni < 100
+
+Sample Input
+
+6
+5
+1 5 6 7 9
+3 5 7 8 0
+4
+2 23 43 55
+21 3 12 1
+3
+2 4 8
+2 4 8
+Sample output
+
+1 3
+3 1
+0 0
+Instructions
+
+You have you write from STDIN and write to STDOUT.
+
+Check the sample program in Python which reads two numbers from STDIN and prints their sum to STDOUT - https://goo.gl/zkfX27
